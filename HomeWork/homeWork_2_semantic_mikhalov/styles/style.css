@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: #f8f8f8;
+  padding: 0px 350px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 20px 10px;
+  position: relative;
+  bottom: 75px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #f8f8f8;
+  color: #666;
+  text-decoration: none;
+  border-radius: 25px;
+}
+nav a:hover {
+  background-color: #efefef;
+}
+
+div button {
+  position: relative;
+  left: 160vh;
+
+  border: medium none;
+  background-image: none;
+  background: transparent;
+}
+div a {
+  text-decoration: none;
+  color: #666;
+}
+
+nav img {
+  width: 70px;
+  position: relative;
+  right: 120px;
+}
+
+main img {
+  width: 70rem;
+
+  position: relative;
+  top: 50%;
+  left: 15%;
+}
+
+.white-box {
+  background-color: #f8f8f8;
+  display: inline-block;
+  border: 1px;
+  padding: 15px;
+  width: 300px;
+  word-wrap: break-word;
+  position: absolute;
+  left: 18%;
+  right: 10%;
+  top: 55%;
+  text-align: center;
+  color: #1a1a1a;
+}
+aside {
+  margin: 100px;
+  padding-left: 130px;
+  position: relative;
+  color: #1a1a1a;
+}
+aside span {
+  position: absolute;
+  bottom: 100px;
+  left: 45%;
+  top: 10%;
+  color: #1a1a1a;
+}
+span img {
+  width: 120px;
+}
+
+.imageQaS {
+  margin-left: 15%;
+}
+.textQaS {
+  margin-left: 20%;
+  position: relative;
+  bottom: -15px;
+  display: inline-block;
+  width: 200px;
+
+  color: #1a1a1a;
+}
+.imageDelivery {
+  margin-left: 50%;
+  position: relative;
+  bottom: 550px;
+}
+.textDelivery {
+  margin-left: 50%;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  bottom: 550px;
+
+  color: #1a1a1a;
+}
+.buttonQaS {
+  text-decoration: none;
+  color: #1a1a1a;
+  position: relative;
+  top: 70px;
+  right: 205px;
+
+  display: inline-block;
+  border: 1px;
+  padding: 15px;
+  background-color: rgb(255, 190, 49);
+}
+
+.buttonDelivery {
+  text-decoration: none;
+  position: relative;
+  bottom: 500px;
+  right: 305px;
+  border: 1px;
+  padding: 15px;
+  background-color: rgb(255, 190, 49);
+  color: #1a1a1a;
+}
+footer {
+  position: relative;
+  left: 80%;
+  display: inline-flex;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+footer img {
+  width: 50px;
+  margin-top: -15px;
+}

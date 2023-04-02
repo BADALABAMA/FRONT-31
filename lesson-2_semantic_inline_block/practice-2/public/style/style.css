@@ -1,0 +1,16 @@
+header {
+  background: violet;
+  padding: 16px;
+
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+main {
+  background: fuchsia;
+}
+
+footer {
+  background: orchid;
+}

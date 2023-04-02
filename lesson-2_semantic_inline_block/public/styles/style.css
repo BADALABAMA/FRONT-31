@@ -1,0 +1,24 @@
+/* 
+* tag/selector(className, id, ...){
+*    ... SCOPE ...
+*}
+*/
+
+header {
+  background: darkmagenta;
+  color: aliceblue;
+}
+main {
+  background: orchid;
+}
+
+aside {
+  background: indigo;
+}
+button {
+  background: green;
+}
+
+footer {
+  background: pink;
+}

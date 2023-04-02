@@ -1,0 +1,9 @@
+1) Create index.html
+1.1) Add favicon 
+1.2.1) Create style.css file 
+1.2.2) Link style.css file 
+
+2) Put there semantic-tags : header , aside , main , footer , section , nav
+3) Add image on your website 
+4) Add discription to image 
+5) Add tags : h1 - h6 , p , span , div , img , input , button

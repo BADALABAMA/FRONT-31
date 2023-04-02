@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../public/fonts\ copy/montserrat);
+    
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../public/fonts\ copy/roboto);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: magenta;
+    --secondary-bg:darkmagenta;
+    --third-bg: purple;
+/* FONT_COLOR */
+    --primary-font-color:aliceblue;
+    --secondary-font-color:#f5f5f5;
+    --third-font-color:cyan;
+/* WIDTH */
+    --full-screen:100%;
+    --quater-after-screen:25%;
+    --half-screen:50%;
+    --quater-before-screen:25%;
+
+    --primary-ff:"montserrat";
+    --secondary-ff:"roboto";
+
+}

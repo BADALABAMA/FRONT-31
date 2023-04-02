@@ -1,0 +1,100 @@
+/* * -> ALL */
+
+* {
+    margin: 0px ;
+    /* margin-top: 0px ;
+    margin-left: 0px ;
+    margin-bottom: 0px ;
+    margin-right: 0px ; */
+    padding: 0px ;
+    /* padding-top: 0px ;
+    padding-left: 0px ;
+    padding-bottom: 0px ;
+    padding-right: 0px ; */
+    box-sizing: border-box;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    background: darkmagenta;
+    padding: 20px;
+}
+
+.header__logo {
+    width: 90px;
+}
+
+.header__input {
+    padding: 5px;
+    border: none;
+    background: inherit;
+    color : aliceblue;
+    border-bottom: 2px solid fuchsia;
+}
+
+.nav ,.sidebar {
+    display: inline-block;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+.sidebar , main {
+    height: 100%;
+
+}
+.sidebar {
+    background: orchid;
+    width: 20%;
+}
+
+/* 100vh - 1screen */
+.container {
+    height: 75vh;
+}
+
+/* % */
+.main {
+    float: right;
+    background: darkorchid;
+    width: 80%;
+    text-align: center;
+}
+
+h2 , .product {
+    display: inline;
+}
+
+.footer {
+   padding: 40px;
+    background: indigo; 
+}
+
+/* h1 {
+    border : 2px solid aliceblue;
+    background: orchid;
+}
+
+h2 {
+    background: darkmagenta;
+} */
+
+/* select by className */
+/* .className {} */
+/* #id {} */
+/* .world {
+    color : whitesmoke ;
+}
+
+#hello {
+    color : fuchsia;
+} */

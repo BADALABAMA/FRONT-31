@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <link
+      rel="shortcut icon"
+      href="./public/icons/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="header__logo-wrapper">
+          <img
+            src="./public/images/logo.png"
+            alt="Something went wrong"
+            class="header__logo"
+          />
+        </div>
+
+        <div class="header__input-wrapper">
+          <input type="text" class="header__input" />
+        </div>
+
+        <nav class="nav">
+          <a href="#" class="nav__item">Home</a>
+          <a href="#" class="nav__item">Category</a>
+          <a href="#" class="nav__item">Login</a>
+        </nav>
+      </header>
+
+      <div class="container">
+        <aside class="sidebar">
+          <div class="filter">
+            <span class="filter__title">T650i</span>
+            <input type="checkbox" />
+          </div>
+
+          <div class="filter">
+            <span class="filter__title">S320i</span>
+            <input type="checkbox" />
+          </div>
+
+          <div class="filter">
+            <span class="filter__title">S120i</span>
+            <input type="checkbox" />
+          </div>
+
+          <div class="filter">
+            <span class="filter__title">S120i</span>
+            <input type="checkbox" />
+          </div>
+
+          <select class="filter" name="manufakturer">
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </aside>
+
+        <main class="main">
+          <div class="product">
+            <div class="product__title">
+              <span>Sony</span>
+            </div>
+
+            <div class="product__img-wrapper">
+              <img
+                src="./public/images/product.jpeg"
+                alt="Something went wrong"
+                class="product__img"
+              />
+            </div>
+
+            <div class="description">
+              <div class="description__col">
+                <div class="description__row">Screen</div>
+                <div class="description__row">6'2</div>
+              </div>
+
+              <div class="description__col">
+                <div class="description__row">Manufakturer</div>
+                <div class="description__row">Japan</div>
+              </div>
+
+              <div class="description__col">
+                <div class="description__row">Label</div>
+                <div class="description__row">Sony Ericsson</div>
+              </div>
+            </div>
+
+            <div class="button-wrapper">
+              <button class="button">Bye!</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <div class="product__title">
+              <span>Sony</span>
+            </div>
+
+            <div class="product__img-wrapper">
+              <img
+                src="./public/images/product.jpeg"
+                alt="Something went wrong"
+                class="product__img"
+              />
+            </div>
+
+            <div class="description">
+              <div class="description__col">
+                <div class="description__row">Screen</div>
+                <div class="description__row">6'2</div>
+              </div>
+
+              <div class="description__col">
+                <div class="description__row">Manufakturer</div>
+                <div class="description__row">Japan</div>
+              </div>
+
+              <div class="description__col">
+                <div class="description__row">Label</div>
+                <div class="description__row">Sony Ericsson</div>
+              </div>
+            </div>
+
+            <div class="button-wrapper">
+              <button class="button">Bye!</button>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__about">
+          <span class="footer__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </span>
+        </div>
+
+        <div class="footer__map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9741.405297389649!2d4.997760796608562!3d52.3821812018599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60fce8285cb89%3A0x769da4c3e9c52566!2sParkeerplaats!5e0!3m2!1sen!2sua!4v1679507629181!5m2!1sen!2sua"
+            width="150"
+            height="75"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="social-media-wrapper">
+          <ul class="social-media">
+            <li class="social-media__item">Insta</li>
+            <li class="social-media__item">Telega</li>
+            <li class="social-media__item">Viber</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

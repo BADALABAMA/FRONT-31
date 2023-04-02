@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background: violet;
+}
+
+main {
+    background: fuchsia;
+}
+
+footer {
+    background: orchid;
+}

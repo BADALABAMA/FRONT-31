@@ -1,0 +1,13 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background: darkmagenta;
+  color: rgba(240, 248, 255, 0.774);
+  padding: 0px;
+  margin: 0px;
+}
+
+.main_phar {
+  word-wrap: break-word;
+  width: 40%;
+  margin: 30px;
+}

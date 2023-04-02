@@ -1,0 +1,46 @@
+@import url(../styles/variables.css);
+#app{
+    font-family: var(--primary-ff);
+    color: var(--secondary-font-color);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header{
+padding: 2rem;
+background: darkmagenta;
+}
+.container
+{
+display: flex;
+height: 75vh;
+}
+
+.sidebar{
+background: var(--main-color);
+width: 25%;
+}
+
+.main{
+display: flex;
+background: indigo;
+width: 75%;
+}
+
+.product{
+
+    height: 6rem;
+    padding: 5rem;
+    margin: 1rem;
+    background: var(--main-color);
+}
+.footer{
+padding: 2rem;
+background: var(--main-color);
+
+
+}
