@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url(../practice/public/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: 'roboto';
+  src: url(../practice/public/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+:root {
+  /* BG */
+  --primary-bg: rgb(0, 117, 196);
+  --secondary-bg: rgb(208, 211, 38);
+  --third-bg: rgb(128, 105, 0);
+
+  /* color */
+  --primary-color: aliceblue;
+  --secondary-color: #f5f5f5;
+  --third-color: #232323;
+
+  /* font-size */
+  --ff-xl: 7rem;
+  --ff-x: 4rem;
+  --ff-l: 3.5rem;
+  --ff-m: 2.5rem;
+  --ff-s: 2rem;
+  --ff-xs: 1rem;
+  /* padding */
+  --padding-xl: 5rem;
+  --padding-x: 4rem;
+  --padding-l: 3rem;
+  --padding-m: 2rem;
+  --padding-s: 1rem;
+  --padding-xs: 0.8rem;
+  /* margin */
+  --fmargin-xl: 10rem;
+  --margin-x: 8rem;
+  --margin-l: 7rem;
+  --margin-m: 6rem;
+  --margin-s: 5rem;
+  --margin-xs: 2rem;
+  /* font-family */
+  --primary-ff: 'montserrat';
+  --secondary-ff: 'roboto';
+  /* box-shadow */
+  --box-shadow-xl: 8px 11px 12px 10px;
+  --box-shadow-x: 3px 5px 7px 8px;
+  --box-shadow-l: 2px 3px 6px 7px;
+}
