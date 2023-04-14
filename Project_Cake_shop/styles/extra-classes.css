@@ -20,7 +20,7 @@
 }
 
 .grey-txt {
-  color: var(--secondary-color);
+  color: var(--third-color);
 }
 
 .simple-txt-xl {
@@ -61,4 +61,14 @@
   grid-template-columns: repeat(2, 474px);
   justify-content: center;
   gap: 20px;
+}
+
+.border-line {
+  border-bottom: 1px solid #dfdfdf;
+  width: 320px;
+  padding-bottom: 1em;
+}
+
+.font-width {
+  width: 18em;
 }
