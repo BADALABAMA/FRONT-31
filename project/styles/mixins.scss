@@ -1,0 +1,7 @@
+@mixin bg-theme($first-color, $second-color, $third-color) {
+  background: linear-gradient($second-color, $third-color, $first-color);
+}
+
+@mixin padding-x-y($x, $y) {
+  padding: $y $x;
+}

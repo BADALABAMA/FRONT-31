@@ -1,0 +1,12 @@
+@import './styles/variables.scss';
+@import url(./styles/mixins.scss);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#app {
+  @include bg-theme(fuchsia, cyan, skyblue);
+  height: 100vh;
+}
